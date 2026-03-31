@@ -1,0 +1,103 @@
+body{
+    margin:20px;
+    color:#333;
+    font-family:'Montserrat', sans-serif;
+}
+
+.header-container{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    margin: 20px;
+}
+
+.header-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  display:flex;
+  align-items:
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #333;
+} 
+nav ul {
+   color: #333;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffbf00;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    color: #ffbf00;
+    cursor: pointer;
+}
+
+.has-dropdown:hover .dropdown {
+    display: block;
+    position: fixed;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.home-content{
+    margin-top:20px;
+    padding:20px; 
+}
+
+.featured-images img{
+    margin-top: 200px;
+    width:300px;  
+    height:300px;
+}
+
+.about-me-background img{
+    width:100%;
+    z-index:-1;
+}
+
+.about-me{
+margin-top:-450px;
+z-index:500;
+color:#ffffff;
+font-size: 2.5rem;
+} 
